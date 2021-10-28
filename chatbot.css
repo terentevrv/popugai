@@ -1,0 +1,33 @@
+#talk {
+  margin: 20px 400px 20px 20px;
+  min-height: 400px;
+  border: silver double 3px;
+  padding: 2opx;
+}
+
+#pop {
+  width: 400px;
+  height: 400px;
+  background: url(img/p2.png);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#myText {
+  padding: 10px;
+  font-size: 120%;
+  margin: 20px 400px 20px 20px;
+  display: block;
+  width: calc(100% - 444px);
+}
+
+#talk .myText {
+  color: blue;
+  text-align: left;
+}
+
+#talk .popText {
+  color: green;
+  text-align: right;
+}
